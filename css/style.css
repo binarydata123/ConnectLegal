@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: #191919;
+    
 }
 
 img {
@@ -2212,9 +2213,23 @@ ul.social li a {
     button.navbar-toggler.collapsed {
         background: #fff;
     }
+    .with-50 {
+        width: 100%;
+        display: flex;
+    }
+    .with-50 h4 {
+        padding-left: 10px !important;
+    }
+    .with-50 span {
+        padding-left: 10px !important;
+    }
 
     .why-client::before {
         position: unset;
+    }
+    .width-100 {
+        width: unset !important;
+
     }
 
     h1.font-64 {
@@ -3151,7 +3166,11 @@ border: 1px solid #FFB743;
 }
 
 
-
+@media(min-width:1366px) and(max-width:1920px){
+    div#profile p.name-uaser {
+        font-size: 16px !important;
+    }
+}
 @media(min-width:1366px) and (max-width:1600px){
     .add-450 h1 {
         font-size: 26px !important;
@@ -3181,6 +3200,18 @@ border: 1px solid #FFB743;
         width: 30px;
         font-size: 16px;
         height: 30px;
+    }
+    div#text-ten h4 {
+        font-size: 25px !important;
+    }
+    .with-50 h4 {
+        font-size: 25px !important;
+    }
+    .with-50 span {
+        font-size: 14px !important;
+    }
+    div#text-ten span {
+        font-size: 14px !important;
     }
     img.har {
         width: 230px;
@@ -3588,13 +3619,13 @@ border: 1px solid #FFB743;
 
 }
 
-@media (min-width:1700px) {
+@media (min-width:1500px) {
     .faq-box h3 {
         font-size: 64px;
         line-height: 96px;
     }
     div#profile p.name-uaser {
-        font-size: 22px;
+        font-size: 15px  !important;
     }
     
     .lawyers-part ul.star-part-2 li {
@@ -5931,12 +5962,23 @@ span#open_nav {
     }
 
     .sidenav a {
-        font-size: 18px;
+        font-size: 13px;
     }
+}
+img.img-responsive.imf-smae {
+    width: 30px;
+}
+.text-center.was-validated a.page-link {
+    color: #156075;
+font-size: 20px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 
 
-/* Prabhat sir code popus.html(02-03-2023.... */
 /*Start----popup-css*/
 .text-left{text-align: left;}
 #pills-tabContent .user-online-g.text-left {
@@ -6210,6 +6252,3 @@ p.right.dot-three {
 
 
 }
-
-
-
